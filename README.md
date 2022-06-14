@@ -168,7 +168,7 @@ docker run --name myapp_c_nodemon -p 4000:4000 --rm -v C:\Users\Evan\Desktop\doc
 If you want to prevent a particular directory in the container form being mapped to the host computer (for example, to keep the node_modules from being deleted/changed) you can use an anonymous volume. This maps the directory in the container to a directory managed by Docker. It will override the previous mapping as its path is more specific.
 
 ```
-docker run --name myapp_c_nodemon -p 4000:4000 --rm -v C:\Users\Gerard\Desktop\docker-crash-course\api:/app -v /app/node_modules myapp:nodemon
+docker run --name myapp_c_nodemon -p 4000:4000 --rm -v C:\Users\Evan\Desktop\docker-crash-course\api:/app -v /app/node_modules myapp:nodemon
 ```
 
 ## Docker Compose
