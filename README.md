@@ -21,6 +21,8 @@ Images are read-only. To change them you need to create a brand new image.
 
 Containers are runnable instances of images. When you run an image, it creates a container, a process that can run your app exactly as outlined in the image.
 
+Containers are a way to package an application with all the necessary dependencies and configurations. They also make the development and deployment process more efficient. 
+
 Containers are isolated processes, they run independently of any other process on the machine.
 
 By sharing an image, multiple containers can be created and run on multiple machines.
